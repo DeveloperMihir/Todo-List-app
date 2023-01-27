@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link href="ToDOStyle.css" rel="StyleSheet">
+    <script src="https://kit.fontawesome.com/73610e6452.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />" -->
+
+</head>
+<body>
+  
+<div class="container">
+
+    <div class="todo-list">
+           <div class="header">
+                <h1>To Do list</h1>
+            </div>
+        <div class="box">
+            <ul id="box">
+            <li></li>
+             </ul>
+        </div>
+        <!-- <button class="delete"><i class="far fa-trash-alt"></i></i></button> -->
+       <div class="add-task">
+           <input type="text" id="name" class="input" placeholder="Input Type here">
+
+          <button   id="btnclick" class="fa fa-plus" onclick="addmore()"></button>
+      </div>
+        <span id="error"></span>
+       
+    
+    </div>
+</div>
+   
+    <script src="ToDoScript.js"></script>
+
+    
+    
+</body>
+</html>
